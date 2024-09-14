@@ -1,3 +1,4 @@
 # Some func
-![Screenshot 2024-09-14 at 12 23 26 AM (3)](https://github.com/user-attachments/assets/44a83726-ef9a-4b11-b258-5d95f5c827ab)
-![Screenshot 2024-09-14 at 12 23 35 AM (3)](https://github.com/user-attachments/assets/60620d17-5152-49bd-88b8-7768a0b94b1d)
+![Screenshot 2024-09-14 at 12 23 35 AM (3)](https://github.com/user-attachments/assets/8dfb2ec7-9787-48d1-a739-2aacf1d9b4cf)
+
+![Screenshot 2024-09-14 at 12 23 26 AM (3)](https://github.com/user-attachments/assets/1d4bb49d-9d15-45c7-bfe5-d914e6b79475)
