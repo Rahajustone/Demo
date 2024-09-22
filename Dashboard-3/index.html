@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <ul>
+        <li class="logo">
+          <span class="logo-text">Rahajustone</span>
+          <button id="toggle-btn" onclick="toggleSideBar()">
+            <span class="material-symbols-sharp"
+              >keyboard_double_arrow_right</span
+            >
+          </button>
+        </li>
+        <li class="active">
+          <a href="index.html">
+            <span class="material-symbols-sharp"> home </span>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="dashboard.html">
+            <span class="material-symbols-sharp"> dashboard </span>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <button class="dropdown-btn" onclick="toggleSubMenu(this)">
+            <span class="material-symbols-sharp"> create_new_folder </span>
+            <span>Create</span>
+            <span class="material-symbols-sharp">chevron_right</span>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li>
+                <a href="#">
+                  <span class="mat">Folder</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Document</a>
+              </li>
+              <li>
+                <a href="#">Project</a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="mat">Archive</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Document</a>
+              </li>
+              <li>
+                <a href="#">Project</a>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <button class="dropdown-btn" onclick="toggleSubMenu(this)">
+            <span class="material-symbols-sharp">edit</span>
+            <span>Todo</span>
+            <span class="material-symbols-sharp">chevron_right</span>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li>
+                <a href="#">
+                  <span class="mat">Work</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Private</a>
+              </li>
+              <li>
+                <a href="#">Coding</a>
+              </li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="calendar.html">
+            <span class="material-symbols-sharp">calendar_month</span>
+            <span>Calendar</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <span class="material-symbols-sharp">person</span>
+            <span>Profile</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+          quisquam, doloribus repellendus, illum eum dolore asperiores, quis aut
+          porro voluptatibus obcaecati reiciendis excepturi! Maiores fugiat
+          minus, aliquam, dignissimos illum id dolor in ipsum beatae ipsa
+          deleniti ab quas ea sapiente sint totam vero maxime dolore nemo!
+          Mollitia quidem esse fugiat nesciunt. Itaque impedit ipsa nam
+          aspernatur! Ipsa necessitatibus cupiditate temporibus. Alias, velit.
+          Sapiente et suscipit tenetur velit odio ipsam ullam pariatur magnam
+          accusamus delectus provident amet enim nobis perspiciatis aperiam
+          inventore nesciunt soluta eaque, debitis praesentium iste sequi sint!
+          Eos illum accusantium dolorem, blanditiis natus magni quod iure quis,
+          non expedita debitis minus quibusdam obcaecati, porro repellendus odit
+          eligendi architecto. Reiciendis corrupti obcaecati, quae assumenda
+          autem in dolorum culpa expedita ex sunt quo voluptatum nesciunt veniam
+          eaque molestias voluptatem maxime atque incidunt reprehenderit ullam
+          ipsum non pariatur! Debitis impedit distinctio blanditiis fuga ad, ex
+          quisquam! Ratione sequi voluptas quibusdam culpa. Voluptas
+          accusantium, enim soluta dicta blanditiis aut quod expedita voluptatem
+          quibusdam at autem doloribus ex, labore ratione id perferendis
+          commodi. Similique blanditiis molestias facere rem commodi ducimus
+          eligendi sapiente, repudiandae, quae debitis earum ullam est? Ipsam
+          quod repudiandae accusamus esse. Enim, sed corporis quod fugit
+          accusantium quia! Eum, autem!
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+          quisquam, doloribus repellendus, illum eum dolore asperiores, quis aut
+          porro voluptatibus obcaecati reiciendis excepturi! Maiores fugiat
+          minus, aliquam, dignissimos illum id dolor in ipsum beatae ipsa
+          deleniti ab quas ea sapiente sint totam vero maxime dolore nemo!
+          Mollitia quidem esse fugiat nesciunt. Itaque impedit ipsa nam
+          aspernatur! Ipsa necessitatibus cupiditate temporibus. Alias, velit.
+          Sapiente et suscipit tenetur velit odio ipsam ullam pariatur magnam
+          accusamus delectus provident amet enim nobis perspiciatis aperiam
+          inventore nesciunt soluta eaque, debitis praesentium iste sequi sint!
+          Eos illum accusantium dolorem, blanditiis natus magni quod iure quis,
+          non expedita debitis minus quibusdam obcaecati, porro repellendus odit
+          eligendi architecto. Reiciendis corrupti obcaecati, quae assumenda
+          autem in dolorum culpa expedita ex sunt quo voluptatum nesciunt veniam
+          eaque molestias voluptatem maxime atque incidunt reprehenderit ullam
+          ipsum non pariatur! Debitis impedit distinctio blanditiis fuga ad, ex
+          quisquam! Ratione sequi voluptas quibusdam culpa. Voluptas
+          accusantium, enim soluta dicta blanditiis aut quod expedita voluptatem
+          quibusdam at autem doloribus ex, labore ratione id perferendis
+          commodi. Similique blanditiis molestias facere rem commodi ducimus
+          eligendi sapiente, repudiandae, quae debitis earum ullam est? Ipsam
+          quod repudiandae accusamus esse. Enim, sed corporis quod fugit
+          accusantium quia! Eum, autem!
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+          quisquam, doloribus repellendus, illum eum dolore asperiores, quis aut
+          porro voluptatibus obcaecati reiciendis excepturi! Maiores fugiat
+          minus, aliquam, dignissimos illum id dolor in ipsum beatae ipsa
+          deleniti ab quas ea sapiente sint totam vero maxime dolore nemo!
+          Mollitia quidem esse fugiat nesciunt. Itaque impedit ipsa nam
+          aspernatur! Ipsa necessitatibus cupiditate temporibus. Alias, velit.
+          Sapiente et suscipit tenetur velit odio ipsam ullam pariatur magnam
+          accusamus delectus provident amet enim nobis perspiciatis aperiam
+          inventore nesciunt soluta eaque, debitis praesentium iste sequi sint!
+          Eos illum accusantium dolorem, blanditiis natus magni quod iure quis,
+          non expedita debitis minus quibusdam obcaecati, porro repellendus odit
+          eligendi architecto. Reiciendis corrupti obcaecati, quae assumenda
+          autem in dolorum culpa expedita ex sunt quo voluptatum nesciunt veniam
+          eaque molestias voluptatem maxime atque incidunt reprehenderit ullam
+          ipsum non pariatur! Debitis impedit distinctio blanditiis fuga ad, ex
+          quisquam! Ratione sequi voluptas quibusdam culpa. Voluptas
+          accusantium, enim soluta dicta blanditiis aut quod expedita voluptatem
+          quibusdam at autem doloribus ex, labore ratione id perferendis
+          commodi. Similique blanditiis molestias facere rem commodi ducimus
+          eligendi sapiente, repudiandae, quae debitis earum ullam est? Ipsam
+          quod repudiandae accusamus esse. Enim, sed corporis quod fugit
+          accusantium quia! Eum, autem!
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+          quisquam, doloribus repellendus, illum eum dolore asperiores, quis aut
+          porro voluptatibus obcaecati reiciendis excepturi! Maiores fugiat
+          minus, aliquam, dignissimos illum id dolor in ipsum beatae ipsa
+          deleniti ab quas ea sapiente sint totam vero maxime dolore nemo!
+          Mollitia quidem esse fugiat nesciunt. Itaque impedit ipsa nam
+          aspernatur! Ipsa necessitatibus cupiditate temporibus. Alias, velit.
+          Sapiente et suscipit tenetur velit odio ipsam ullam pariatur magnam
+          accusamus delectus provident amet enim nobis perspiciatis aperiam
+          inventore nesciunt soluta eaque, debitis praesentium iste sequi sint!
+          Eos illum accusantium dolorem, blanditiis natus magni quod iure quis,
+          non expedita debitis minus quibusdam obcaecati, porro repellendus odit
+          eligendi architecto. Reiciendis corrupti obcaecati, quae assumenda
+          autem in dolorum culpa expedita ex sunt quo voluptatum nesciunt veniam
+          eaque molestias voluptatem maxime atque incidunt reprehenderit ullam
+          ipsum non pariatur! Debitis impedit distinctio blanditiis fuga ad, ex
+          quisquam! Ratione sequi voluptas quibusdam culpa. Voluptas
+          accusantium, enim soluta dicta blanditiis aut quod expedita voluptatem
+          quibusdam at autem doloribus ex, labore ratione id perferendis
+          commodi. Similique blanditiis molestias facere rem commodi ducimus
+          eligendi sapiente, repudiandae, quae debitis earum ullam est? Ipsam
+          quod repudiandae accusamus esse. Enim, sed corporis quod fugit
+          accusantium quia! Eum, autem!
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim
+          quisquam, doloribus repellendus, illum eum dolore asperiores, quis aut
+          porro voluptatibus obcaecati reiciendis excepturi! Maiores fugiat
+          minus, aliquam, dignissimos illum id dolor in ipsum beatae ipsa
+          deleniti ab quas ea sapiente sint totam vero maxime dolore nemo!
+          Mollitia quidem esse fugiat nesciunt. Itaque impedit ipsa nam
+          aspernatur! Ipsa necessitatibus cupiditate temporibus. Alias, velit.
+          Sapiente et suscipit tenetur velit odio ipsam ullam pariatur magnam
+          accusamus delectus provident amet enim nobis perspiciatis aperiam
+          inventore nesciunt soluta eaque, debitis praesentium iste sequi sint!
+          Eos illum accusantium dolorem, blanditiis natus magni quod iure quis,
+          non expedita debitis minus quibusdam obcaecati, porro repellendus odit
+          eligendi architecto. Reiciendis corrupti obcaecati, quae assumenda
+          autem in dolorum culpa expedita ex sunt quo voluptatum nesciunt veniam
+          eaque molestias voluptatem maxime atque incidunt reprehenderit ullam
+          ipsum non pariatur! Debitis impedit distinctio blanditiis fuga ad, ex
+          quisquam! Ratione sequi voluptas quibusdam culpa. Voluptas
+          accusantium, enim soluta dicta blanditiis aut quod expedita voluptatem
+          quibusdam at autem doloribus ex, labore ratione id perferendis
+          commodi. Similique blanditiis molestias facere rem commodi ducimus
+          eligendi sapiente, repudiandae, quae debitis earum ullam est? Ipsam
+          quod repudiandae accusamus esse. Enim, sed corporis quod fugit
+          accusantium quia! Eum, autem!
+        </p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
